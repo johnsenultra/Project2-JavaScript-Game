@@ -1,0 +1,32 @@
+.input-el input {
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid black;
+    outline: none;
+    background-color: rgb(241, 232, 214);
+}
+
+.pickContainer {
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(241, 232, 214);
+    border: 2px solid;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.vs {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+@media (max-width: 400px) {
+    .input-el input {
+       font-size: 15px;
+    }
+}
