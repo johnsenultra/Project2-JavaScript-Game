@@ -9,10 +9,11 @@
 
 .pickContainer {
     height: 85px;
-    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
+    padding-top: 15px;
     background-color: rgb(241, 232, 214);
     border: 2px solid;
     border-radius: 10px;
